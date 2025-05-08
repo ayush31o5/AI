@@ -1,0 +1,5 @@
+# Ignore all .ai files
+*.ai
+
+# Ignore virtual environment directories
+venv/

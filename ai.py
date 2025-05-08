@@ -183,7 +183,7 @@ if __name__ == '__main__':
     history_ga     = run_ga_only(pt, generations)
     history_hybrid = run_hybrid(pt, generations, inject_every=5)
 
-    # Print table casting floats to ints
+
     print("\n| Generation | GA_only | Hybrid |")
     print("|------------|---------|--------|")
     for gen, ga_val, hyb_val in zip(range(generations), history_ga, history_hybrid):
